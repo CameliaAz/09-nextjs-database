@@ -61,3 +61,22 @@ Setelah menjalankan perintah `npm run seed`, data berhasil disisipkan ke dalam t
 - Skrip `seed.js` menggunakan data dari file `data.js` dan menyisipkan data tersebut ke dalam basis data PostgreSQL.
 - Saya harus memastikan bahwa modul `dotenv` dan `bcrypt` terinstal dengan benar agar skrip dapat dijalankan tanpa error.
 - Setelah seed berhasil dijalankan, saya memverifikasi data di **Vercel Data** dan memastikan bahwa data yang dimasukkan sudah sesuai.
+
+## Menjelajah Basis Data dan Menjalankan Query SQL
+![Hasil menjelajah basis data dan menjalankan query] ![image](https://github.com/user-attachments/assets/fa97ed4d-66a6-48fd-95c8-899dc55b22ea)
+![image](https://github.com/user-attachments/assets/26334b2e-e700-4769-99a1-8a35c066d9ac)
+
+
+Setelah data disisipkan, saya menjelajahi basis data melalui Vercel dan menjalankan beberapa query SQL. Berikut adalah hasil query yang saya jalankan:
+
+1. **Query untuk mencari invoice dengan amount 666:**
+   ```sql
+   SELECT invoices.amount, customers.name
+   FROM invoices
+   JOIN customers ON invoices.customer_id = customers.id
+   WHERE invoices.amount = 666;
+Hasilnya menunjukkan pelanggan yang memiliki invoice dengan jumlah 666, yaitu:
+Pelanggan: Evil Rabbit
+Jumlah: 666
+
+
