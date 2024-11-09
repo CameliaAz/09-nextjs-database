@@ -41,3 +41,15 @@ Hasil Deploy: ![image](https://github.com/user-attachments/assets/876f2222-caaf-
 Pembelajaran:
 Langkah-langkah utama dalam proses deploy.
 Pemahaman baru atau best practice yang diperoleh dari jobsheet ini.
+
+# Konfigurasi Basis Data dengan Vercel Postgres
+
+## Hasil Basis Data
+![Hasil Basis Data](![image](https://github.com/user-attachments/assets/efe0b1f6-d44f-4cfb-bcfc-828048fa2a9e)
+)
+
+## Pembelajaran
+Selama proses konfigurasi basis data ini, saya mempelajari beberapa hal penting:
+- **Pemilihan Region Basis Data**: Memahami bahwa region harus dipilih sebelum proses inisialisasi agar tidak perlu konfigurasi ulang.
+- **Keamanan Konfigurasi Rahasia**: Menggunakan file `.env` dan memastikan `.env` tercantum di `.gitignore` agar informasi rahasia tidak terekspos ke publik.
+- **Instalasi SDK**: Mempelajari cara menginstal dan menggunakan Vercel Postgres SDK untuk berinteraksi dengan basis data.
