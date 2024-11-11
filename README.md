@@ -84,3 +84,15 @@ Jumlah: 666
 
 link vercel : nextjs-database-alpha.vercel.app
 
+# Laporan Jawaban Soal 6
+![image](https://github.com/user-attachments/assets/40aa0366-7e3d-4a45-bde0-692ea484469a)
+
+
+## Deskripsi
+Pada soal ini, saya diminta untuk menghapus komentar pada komponen `RevenueChart` yang terdapat di file `src/app/page.tsx`, kemudian melakukan push ke GitHub dan melakukan deploy aplikasi ke Vercel. Setelah itu, saya mengambil screenshot tampilan aplikasi untuk melengkapi laporan ini.
+
+
+## Apa yang Dipelajari
+- **Penggunaan komponen di Next.js**: Saya belajar bagaimana cara memodifikasi tampilan dengan mengaktifkan atau menonaktifkan komponen tertentu dengan menghapus komentar pada komponen.
+- **Proses Deployment**: Saya juga belajar tentang bagaimana perubahan di GitHub akan otomatis dideteksi dan dideploy oleh Vercel tanpa memerlukan konfigurasi manual lebih lanjut.
+- **Debugging dan Verifikasi Tampilan**: Selama proses ini, saya memverifikasi apakah komponen ditampilkan dengan baik dan bagaimana cara memeriksa konsol browser untuk mencari potensi masalah.
